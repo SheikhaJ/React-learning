@@ -1,0 +1,38 @@
+header{
+    background-color: #fafafa;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: 9999; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #193170;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu a{
+    color: #193170;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.nav-menu a:hover{
+    color: #4061bb;
+}

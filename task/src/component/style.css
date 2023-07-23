@@ -1,0 +1,44 @@
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+	margin-right: 10px;
+}
+
+.main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
